@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 1024px;
+    /* text-align: center;*/
+}
+
+.header {
+    background-color: #6ee274;
+    padding: 5px;
+    text-align: center;
+}
+
+#imgportada {
+    text-align: center;
+}
+
+#image {
+    right: 600px;
+    width: 800px;
+    max-height: 100px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #d0ec30;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #050000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #6ee274;
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+
+.column.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row .center {
+    margin-left: 213px;
+}
+.footer {
+    background-color: #6ee274;
+    padding: 10px;
+    text-align: center;
+}
+
+.mx-3 {
+    margin-inline: 30px;
+}
+
+a {
+    text-decoration: none;
+}
